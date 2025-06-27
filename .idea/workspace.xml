@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a0d568e-b3a4-4112-be63-2bd1a926adb2" name="Changes" comment="" />
+    <list default="true" id="3a0d568e-b3a4-4112-be63-2bd1a926adb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.astro/content.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/content.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.astro/data-store.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/data-store.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.astro/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,25 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/vita/projects/portfolio/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/vita/projects/portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Users/vita/projects/portfolio/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -68,6 +80,9 @@
       <workItem from="1735519459704" duration="764000" />
       <workItem from="1735567935215" duration="570000" />
       <workItem from="1735568548877" duration="109000" />
+      <workItem from="1735596810820" duration="1088000" />
+      <workItem from="1736359005651" duration="8000" />
+      <workItem from="1751049929359" duration="1258000" />
     </task>
     <servers />
   </component>
