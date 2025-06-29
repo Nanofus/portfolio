@@ -1,7 +1,6 @@
 :root {
-	--font-family-serif: "EB Garamond", serif;
-	--font-family-sans: "Nunito Sans", -apple-system, BlinkMacSystemFont,
-		system-ui, sans-serif;
+	--font-family-header: "EB Garamond", serif;
+	--font-family-body: "Spectral", "Source Serif 4", serif;
 	--font-family-mono: "MonoLisa", Inconsolata, monospace;
 	
 	--base-light-color: #F6F5F5;

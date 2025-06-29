@@ -4,13 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a0d568e-b3a4-4112-be63-2bd1a926adb2" name="Changes" comment="" />
+    <list default="true" id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="Add source to footer">
+      <change beforePath="$PROJECT_DIR$/.astro/collections/writing.schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/collections/writing.schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.astro/content.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/content.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.astro/data-store.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/data-store.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.astro/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseHead.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseHead.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/writing/[slug].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/writing/[slug].astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Navigation" />
+        <option value="FrontPage.svelte" />
+        <option value="Visualizer.svelte" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -19,63 +46,204 @@
     &quot;assignee&quot;: &quot;Nanofus&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Nanofus/portfolio.git&quot;,
-    &quot;accountId&quot;: &quot;40f5bb1e-1148-4e1f-8f40-1b3f12324f57&quot;
-  }
-}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="40f5bb1e-1148-4e1f-8f40-1b3f12324f57" />
+        <option name="url" value="git@github.com:nanofus/website.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2quivtcM5EGsgB3Zdgvthrz7DIt" />
+  <component name="ProjectId" id="2Y5uVTOOwjBtcR6shF4G5NK7KWr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/vita/projects/portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/Users/vita/projects/portfolio/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-LSP window/showMessage&quot;: &quot;LSP messages&quot;,
+    &quot;Notification.DoNotAsk-LSP window/showMessage&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;24.2.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.0.7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/talon/.bun/bin/bun.exe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\talon\\projects\\website\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\talon\\projects\\website\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\talon\Projects\website\src\routes\(pages)\tags" />
+      <recent name="C:\Users\talon\Projects\website\src\routes\(pages)\tags\[slug]" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\talon\projects\website\src\content\blog" />
+      <recent name="C:\Users\talon\projects\website\src\data" />
+      <recent name="C:\Users\talon\projects\website" />
+      <recent name="C:\Users\talon\projects\website\old" />
+      <recent name="C:\Users\talon\Projects\website\src\routes\api\post" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.bun/bin/bun" />
+      <package-manager value="C:\Users\talon\.bun\bin\bun.exe" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a0d568e-b3a4-4112-be63-2bd1a926adb2" name="Changes" comment="" />
-      <created>1735519095438</created>
+      <changelist id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="" />
+      <created>1699827802260</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1735519095438</updated>
-      <workItem from="1735519096882" duration="97000" />
-      <workItem from="1735519459704" duration="764000" />
-      <workItem from="1735567935215" duration="570000" />
-      <workItem from="1735568548877" duration="109000" />
-      <workItem from="1735596810820" duration="1088000" />
-      <workItem from="1736359005651" duration="8000" />
-      <workItem from="1751049929359" duration="1472000" />
+      <updated>1699827802260</updated>
+      <workItem from="1699827803218" duration="70000" />
+      <workItem from="1699827895319" duration="8101000" />
+      <workItem from="1699893643888" duration="10540000" />
+      <workItem from="1699914416870" duration="193000" />
+      <workItem from="1699914646270" duration="1936000" />
+      <workItem from="1699967177978" duration="7906000" />
+      <workItem from="1700043759713" duration="22000" />
+      <workItem from="1700044063832" duration="7397000" />
+      <workItem from="1700065641111" duration="271000" />
+      <workItem from="1700067768453" duration="381000" />
+      <workItem from="1700605587841" duration="291000" />
+      <workItem from="1702235819858" duration="10000" />
+      <workItem from="1703589181092" duration="16000" />
+      <workItem from="1704310432595" duration="7000" />
+      <workItem from="1705254370087" duration="292000" />
+      <workItem from="1706906324865" duration="15000" />
+      <workItem from="1708024399356" duration="57000" />
+      <workItem from="1708024472833" duration="5041000" />
+      <workItem from="1708029558598" duration="1015000" />
+      <workItem from="1710420302585" duration="51000" />
+      <workItem from="1711012677170" duration="103000" />
+      <workItem from="1716744574833" duration="214000" />
+      <workItem from="1716922619481" duration="173000" />
+      <workItem from="1718461000457" duration="1275000" />
+      <workItem from="1718462340427" duration="1126000" />
+      <workItem from="1718468741301" duration="6541000" />
+      <workItem from="1718492279777" duration="641000" />
+      <workItem from="1718642669759" duration="87000" />
+      <workItem from="1724689709323" duration="2915000" />
+      <workItem from="1724698678064" duration="3440000" />
+      <workItem from="1724706486378" duration="8000" />
+      <workItem from="1724789729179" duration="2583000" />
+      <workItem from="1726684262025" duration="13000" />
+      <workItem from="1727172181601" duration="2857000" />
+      <workItem from="1727175237883" duration="440000" />
+      <workItem from="1727175697060" duration="1603000" />
+      <workItem from="1727177348643" duration="18770000" />
+      <workItem from="1727255167755" duration="8260000" />
+      <workItem from="1727267734819" duration="147000" />
+      <workItem from="1727267894550" duration="293000" />
+      <workItem from="1727271759109" duration="319000" />
+      <workItem from="1727336975607" duration="843000" />
+      <workItem from="1727351662464" duration="1397000" />
+      <workItem from="1727793968846" duration="5000" />
+      <workItem from="1736186139049" duration="29000" />
+      <workItem from="1751230491286" duration="288000" />
+      <workItem from="1751230804103" duration="319000" />
     </task>
+    <task id="LOCAL-00001" summary="Improvements">
+      <option name="closed" value="true" />
+      <created>1700050784046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700050784046</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Upgrades">
+      <option name="closed" value="true" />
+      <created>1727196469968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727196469968</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lint">
+      <option name="closed" value="true" />
+      <created>1727199865031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727199865031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add source to footer">
+      <option name="closed" value="true" />
+      <created>1727271997969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727271997969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Improvements" />
+    <MESSAGE value="Upgrades" />
+    <MESSAGE value="Lint" />
+    <MESSAGE value="Add source to footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add source to footer" />
   </component>
 </project>

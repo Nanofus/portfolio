@@ -33,8 +33,6 @@ const { current = "" } = Astro.props;
 	#main-logo {
 		color: var(--text-on-accent-color);
 		background-color: var(--accent-color);
-		border-bottom-right-radius: 1rem;
-		border-top-right-radius: 1rem;
 		transition: filter 0.3s ease;
 	}
 
@@ -44,18 +42,16 @@ const { current = "" } = Astro.props;
 	}
 
 	#main-logo span {
-		background-image: url("/favicon.png");
 		background-position: left;
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding-left: 1.8rem;
 	}
 
 	nav {
 		align-items: center;
 		display: flex;
 		flex: 1;
-		font-family: var(--font-family-sans), sans-serif;
+		font-family: var(--font-family-body), serif;
 		font-weight: 500;
 		justify-content: flex-end;
 		margin-right: 1rem;
