@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="Add source to footer">
-      <change beforePath="$PROJECT_DIR$/.astro/content.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/content.d.ts" afterDir="false" />
+    <list default="true" id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="Package updates">
       <change beforePath="$PROJECT_DIR$/.astro/data-store.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/data-store.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.astro/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +188,7 @@
       <workItem from="1751230804103" duration="996000" />
       <workItem from="1753639045173" duration="3000" />
       <workItem from="1753729651276" duration="20000" />
-      <workItem from="1764259952221" duration="1080000" />
+      <workItem from="1764259952221" duration="3253000" />
     </task>
     <task id="LOCAL-00001" summary="Improvements">
       <option name="closed" value="true" />
@@ -225,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727271997969</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Package updates">
+      <option name="closed" value="true" />
+      <created>1764263115892</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764263115892</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +252,7 @@
     <MESSAGE value="Upgrades" />
     <MESSAGE value="Lint" />
     <MESSAGE value="Add source to footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add source to footer" />
+    <MESSAGE value="Package updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package updates" />
   </component>
 </project>

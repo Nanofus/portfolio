@@ -22,13 +22,5 @@ export default defineConfig({
 				},
 			],
 		],
-		rehypePlugins: [
-			[
-				rehypeExternalLinks,
-				{
-					target: "_blank",
-				},
-			],
-		],
 	},
 });
