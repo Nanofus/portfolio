@@ -12,19 +12,19 @@ export async function GET({ props }: Props) {
 	const { post } = props;
 
 	// using custom font files
-	const DmSansBold: Buffer = fs.readFileSync(path.resolve('./fonts/JunicodeVF-Roman.woff2'));
+	const DmSansBold: Buffer = fs.readFileSync(path.resolve('./dist/fonts/JunicodeVF-Roman.ttf'));
 	const DmSansReqular: Buffer = fs.readFileSync(
-		path.resolve('./fonts/JunicodeVF-Roman.woff2'),
+		path.resolve('./dist/fonts/JunicodeVF-Roman.ttf'),
 	);
 
 	// post cover with Image is pretty tricky for dev and build phase
-	const postCover = fs.readFileSync(
-		process.env.NODE_ENV === 'development'
-			? path.resolve(
-				post.data.cover.src.replace(/\?.*/, '').replace('/@fs', ''),
-			)
-			: path.resolve(post.data.cover.src.replace('/', 'dist/')),
-	);
+	//const postCover = fs.readFileSync(
+	//	process.env.NODE_ENV === 'development'
+	//		? path.resolve(
+  //    post.data.cover.src.replace(/\?.*/, '').replace('/@fs', ''),
+	//		)
+	//		: path.resolve(post.data.cover?.src.replace('/', 'dist/')),
+	//);*/
 
 	// Astro doesn't support tsx endpoints so usign React-element objects
 	const html = {
@@ -37,12 +37,12 @@ export async function GET({ props }: Props) {
 						// using tailwind
 						tw: 'w-[200px] h-[200px] flex rounded-3xl overflow-hidden',
 						children: [
-							{
+							/*{
 								type: 'img',
 								props: {
 									src: postCover.buffer,
 								},
-							},
+							},*/
 						],
 					},
 				},
