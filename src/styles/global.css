@@ -20,16 +20,14 @@ html {
 :root {
     --background-color: var(--base-light-color);
     --text-color: var(--base-dark-color);
-    --text-on-accent-color: var(--base-dark-color);
     --accent-color: var(--base-accent-color);
-    --subtler: brightness(0.5) saturate(0.3);
+    --subtler: brightness(0.6) saturate(0.3);
 }
 
 @media screen and (prefers-color-scheme: dark) {
     :root {
         --background-color: var(--base-dark-color);
         --text-color: var(--base-light-color);
-        --text-on-accent-color: var(--base-dark-color);
         --accent-color: var(--base-accent-color);
         --subtler: brightness(5) saturate(0.3);
     }
@@ -44,6 +42,15 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     -webkit-font-smoothing: antialiased;
+}
+
+.anchor-link {
+    position: absolute;
+    filter: var(--subtler);
+    color: var(--background-color);
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 h1,
@@ -66,6 +73,11 @@ h1 {
 h2 {
     margin: 1.6rem 0 0 0;
     font-size: 1.8rem;
+    .anchor-link {
+        width: 1.6rem;
+        margin-left: -1.6rem;
+        position: absolute;
+    }
 }
 
 h3 {

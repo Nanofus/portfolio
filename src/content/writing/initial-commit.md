@@ -12,6 +12,8 @@ Next, I started doing research on various static site generators. [Eleventy](htt
 
 Then I remembered a framework I had heard about a while back: [Astro](https://astro.build). This shiny new version of the site is built with it, on top of the default blog template. It was very easy to set up, and the blog template contained almost all the functionality I had in my SvelteKit version, except that it was all there pre-built with less code. I could also keep using Svelte components if needed! The cube spinning on the front page at the time of writing is running on the magnificent [Threlte](https://threlte.xyz/) library that binds Three.js and Svelte together. I'd like the front page to show some flashy 3D animation, and learn some shader programming while doing that.
 
+## Testing
+
 The color palette of the site is based on my favourite IDE theme, [Kanagawa](https://github.com/rebelot/kanagawa.nvim).
 
 Let's see where this site grows!
