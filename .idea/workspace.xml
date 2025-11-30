@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="Cleanup">
-      <change afterPath="$PROJECT_DIR$/public/fonts/JunicodeVF-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JunicodeVF-Roman.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/writing/[slug]/og.png.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BaseHead.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseHead.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/writing/[slug]/og.png.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/writing/[slug]/og.png.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +191,7 @@
       <workItem from="1764360156686" duration="62000" />
       <workItem from="1764360230352" duration="6000" />
       <workItem from="1764506050676" duration="5848000" />
+      <workItem from="1764536982579" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="Improvements">
       <option name="closed" value="true" />

@@ -12,8 +12,8 @@ export async function GET({ props }: Props) {
 	const { post } = props;
 
 	// using custom font files
-	const DmSansBold = fs.readFileSync(path.resolve('./fonts/JunicodeVF-Roman.woff2'));
-	const DmSansReqular = fs.readFileSync(
+	const DmSansBold: Buffer = fs.readFileSync(path.resolve('./fonts/JunicodeVF-Roman.woff2'));
+	const DmSansReqular: Buffer = fs.readFileSync(
 		path.resolve('./fonts/JunicodeVF-Roman.woff2'),
 	);
 
@@ -114,12 +114,12 @@ export async function GET({ props }: Props) {
 		fonts: [
 			{
 				name: 'DM Sans Bold',
-				data: DmSansBold.buffer,
+				data: <ArrayBuffer>DmSansBold.buffer,
 				style: 'normal',
 			},
 			{
 				name: 'DM Sans Regular',
-				data: DmSansReqular.buffer,
+				data: <ArrayBuffer>DmSansReqular.buffer,
 				style: 'normal',
 			},
 		],
