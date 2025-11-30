@@ -12,9 +12,9 @@ export async function GET({ props }: Props) {
 	const { post } = props;
 
 	// using custom font files
-	const DmSansBold: Buffer = fs.readFileSync(path.resolve('./dist/fonts/JunicodeVF-Roman.ttf'));
+	const DmSansBold: Buffer = fs.readFileSync(path.resolve('./dist/fonts/Junicode-Regular.ttf'));
 	const DmSansReqular: Buffer = fs.readFileSync(
-		path.resolve('./dist/fonts/JunicodeVF-Roman.ttf'),
+		path.resolve('./dist/fonts/Junicode-Italic.ttf'),
 	);
 
 	// post cover with Image is pretty tricky for dev and build phase
@@ -76,7 +76,7 @@ export async function GET({ props }: Props) {
 									style: {
 										fontFamily: 'DM Sans Bold',
 									},
-									children: 'Dzmitry Kozhukh',
+									children: 'Ville Talonpoika',
 								},
 							},
 							{
@@ -93,7 +93,7 @@ export async function GET({ props }: Props) {
 								type: 'div',
 								props: {
 									tw: 'text-3xl',
-									children: 'Blog',
+									children: 'Writing',
 								},
 							},
 						],

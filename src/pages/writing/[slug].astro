@@ -19,12 +19,14 @@ const { Content, headings } = await entry!.render();
 const { title, description, pubDate, index } = data;
 const { slug, readingTime } = getPostData(Astro.props.post);
 const permalink = `${Astro.site!.href}writing/${slug}`;
+const imageUrl = `${Astro.site!.href}writing/${slug}/og.png`;
 ---
-
+  
 <BaseLayout
 	title={title}
 	description={description || ""}
 	permalink={permalink}
+  imageUrl={imageUrl}
 	current="writing"
 >
 	<div class="content-container">

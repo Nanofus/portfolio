@@ -7,11 +7,11 @@ export interface Props {
 	title: string;
 	description: string;
 	permalink: string;
+  imageUrl: string;
 }
 
-const { title, description, permalink } = Astro.props;
+const { title, description, permalink, imageUrl } = Astro.props;
 const rssUrl = Astro.site!.href + "rss.xml";
-const socialUrl = Astro.site!.href + "social.png";
 ---
 
 <!-- Global Metadata -->
@@ -42,14 +42,14 @@ const socialUrl = Astro.site!.href + "social.png";
 <meta property="og:url" content={permalink} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={socialUrl} />
+<meta property="og:image" content={imageUrl} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={permalink} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={socialUrl} />
+<meta property="twitter:image" content={imageUrl} />
 
 <!-- RSS Feed -->
 <link
