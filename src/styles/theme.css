@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "Junicode";
+    src: url("/fonts/JunicodeVF-Roman.woff2");
+}
+
 :root {
-	--font-family-header: "EB Garamond", serif;
-	--font-family-body: "Spectral", "Source Serif 4", serif;
+	--font-family-header: "Junicode", serif;
+	--font-family-body: "Junicode", serif;
 	--font-family-mono: "MonoLisa", Inconsolata, monospace;
 	
 	--base-light-color: #F6F5F5;
