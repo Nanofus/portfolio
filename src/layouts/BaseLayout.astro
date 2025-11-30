@@ -8,8 +8,9 @@ export interface Props {
 	description: string;
 	permalink: string;
 	current?: string;
+	imageUrl?: string;
 }
-const { title, description, permalink, current } = Astro.props;
+const { title, description, permalink, current, imageUrl } = Astro.props;
 
 const blurAnimation = {
 	old: {
@@ -28,7 +29,6 @@ const blurTransition = {
 	forwards: blurAnimation,
 	backwards: blurAnimation,
 };
-const imageUrl = "";
 ---
 
 <html lang="en">
