@@ -8,6 +8,19 @@ interface Props {
 	props: { post: CollectionEntry<"writing"> };
 }
 
+async function loadGoogleFont (font: string, text: string) {
+  const url = `https://fonts.googleapis.com/css2?family=${font}&text=${encodeURIComponent(text)}`
+  const css = await (await fetch(url)).text()
+  const resource = css.match(/src: url\((.+)\) format\('(opentype|truetype)'\)/)
+  if (resource) {
+    const response = await fetch(resource[1])
+    if (response.status == 200) {
+      return await response.arrayBuffer()
+    }
+  }
+  throw new Error('failed to load font data')
+}
+
 export async function GET({ props }: Props) {
 	const { post } = props;
 
@@ -18,13 +31,13 @@ export async function GET({ props }: Props) {
 	);
 
 	// post cover with Image is pretty tricky for dev and build phase
-	//const postCover = fs.readFileSync(
-	//	process.env.NODE_ENV === 'development'
-	//		? path.resolve(
-  //    post.data.cover.src.replace(/\?.*/, '').replace('/@fs', ''),
-	//		)
-	//		: path.resolve(post.data.cover?.src.replace('/', 'dist/')),
-	//);*/
+	const postCover = fs.readFileSync(
+		process.env.NODE_ENV === 'development'
+			? path.resolve(
+      post.data.cover.src.replace(/\?.*/, '').replace('/@fs', ''),
+			)
+			: path.resolve(post.data.cover.src.replace('/', 'dist/')),
+	);
 
 	// Astro doesn't support tsx endpoints so usign React-element objects
 	const html = {
@@ -37,12 +50,12 @@ export async function GET({ props }: Props) {
 						// using tailwind
 						tw: 'w-[200px] h-[200px] flex rounded-3xl overflow-hidden',
 						children: [
-							/*{
+							{
 								type: 'img',
 								props: {
 									src: postCover.buffer,
 								},
-							},*/
+							},
 						],
 					},
 				},
