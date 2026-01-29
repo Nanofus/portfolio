@@ -1,11 +1,16 @@
 @font-face {
-    font-family: "JunicodeVF";
-    src: url("public/fonts/JunicodeVF-Roman.woff2");
+    font-family: "Lora";
+    src: url("/fonts/Lora-VariableFont_wght.ttf");
+}
+@font-face {
+	font-family: "Lora";
+	font-style: italic;
+	src: url("/fonts/Lora-Italic-VariableFont_wght.ttf");
 }
 
 :root {
-	--font-family-header: "Junicode", serif;
-	--font-family-body: "Junicode", serif;
+	--font-family-header: "Lora", serif;
+	--font-family-body: "Lora", serif;
 	--font-family-mono: "MonoLisa", Inconsolata, monospace;
 	
 	--base-light-color: #F6F5F5;
