@@ -1,6 +1,6 @@
 <script lang="ts">
   import {Canvas} from "@threlte/core";
-  import Visualization from "@components/Visualization.svelte";
+  import Visualization from "src/components/Visualization.svelte";
 </script>
 
 <div class="visualization-wrapper">
