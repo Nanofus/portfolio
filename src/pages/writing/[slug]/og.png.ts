@@ -25,9 +25,9 @@ export async function GET({ props }: Props) {
 	const { post } = props;
 
 	// using custom font files
-	const DmSansBold: Buffer = fs.readFileSync(path.resolve('./dist/fonts/Junicode-Regular.ttf'));
+	const DmSansBold: Buffer = fs.readFileSync(path.resolve('./dist/fonts/Lora-VariableFont_wght.ttf'));
 	const DmSansReqular: Buffer = fs.readFileSync(
-		path.resolve('./dist/fonts/Junicode-Italic.ttf'),
+		path.resolve('./dist/fonts/Lora-Italic-VariableFont_wght.ttf'),
 	);
 
 	// post cover with Image is pretty tricky for dev and build phase
