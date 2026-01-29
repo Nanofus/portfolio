@@ -31,13 +31,13 @@ export async function GET({ props }: Props) {
 	);
 
 	// post cover with Image is pretty tricky for dev and build phase
-	const postCover = fs.readFileSync(
+	const postCover = post.data.cover ? fs.readFileSync(
 		process.env.NODE_ENV === 'development'
 			? path.resolve(
-      post.data.cover?.src.replace(/\?.*/, '').replace('/@fs', ''),
+      post.data.cover.src.replace(/\?.*/, '').replace('/@fs', ''),
 			)
-			: path.resolve(post.data.cover?.src.replace('/', 'dist/')),
-	);
+			: path.resolve(post.data.cover.src.replace('/', 'dist/')),
+	) : null;
 
 	// Astro doesn't support tsx endpoints so usign React-element objects
 	const html = {
@@ -53,7 +53,7 @@ export async function GET({ props }: Props) {
 							{
 								type: 'img',
 								props: {
-									src: postCover.buffer,
+									src: postCover?.buffer,
 								},
 							},
 						],
