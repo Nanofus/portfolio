@@ -24,13 +24,11 @@ async function loadGoogleFont (font: string, text: string) {
 export async function GET({ props }: Props) {
 	const { post } = props;
 
-	// using custom font files
-	const DmSansBold: Buffer = fs.readFileSync(path.resolve('./dist/fonts/lora-latin-400-normal.woff'));
-	const DmSansReqular: Buffer = fs.readFileSync(
+	const font: Buffer = fs.readFileSync(path.resolve('./dist/fonts/lora-latin-400-normal.woff'));
+	const fontItalic: Buffer = fs.readFileSync(
 		path.resolve('./dist/fonts/lora-latin-400-italic.woff'),
 	);
 
-	// post cover with Image is pretty tricky for dev and build phase
 	const postCover = post.data.cover ? fs.readFileSync(
 		process.env.NODE_ENV === 'development'
 			? path.resolve(
@@ -50,12 +48,12 @@ export async function GET({ props }: Props) {
 						// using tailwind
 						tw: 'w-[200px] h-[200px] flex rounded-3xl overflow-hidden',
 						children: [
-							{
+							/*{
 								type: 'img',
 								props: {
 									src: postCover ? postCover.buffer : "",
 								},
-							},
+							},*/
 						],
 					},
 				},
@@ -69,7 +67,7 @@ export async function GET({ props }: Props) {
 								props: {
 									style: {
 										fontSize: '48px',
-										fontFamily: 'DM Sans Bold',
+										fontFamily: 'Lora',
 									},
 									children: post.data.title,
 								},
@@ -87,7 +85,7 @@ export async function GET({ props }: Props) {
 								props: {
 									tw: 'text-blue-600 text-3xl',
 									style: {
-										fontFamily: 'DM Sans Bold',
+										fontFamily: 'Lora',
 									},
 									children: 'Ville Talonpoika',
 								},
@@ -116,7 +114,7 @@ export async function GET({ props }: Props) {
 			tw: 'w-full h-full flex items-center justify-center relative px-22',
 			style: {
 				background: '#f7f8e8',
-				fontFamily: 'DM Sans Regular',
+				fontFamily: 'Lora',
 			},
 		},
 	};
@@ -126,14 +124,14 @@ export async function GET({ props }: Props) {
 		height: 600,
 		fonts: [
 			{
-				name: 'DM Sans Bold',
-				data: <ArrayBuffer>DmSansBold.buffer,
+				name: 'Lora',
+				data: <ArrayBuffer>font.buffer,
 				style: 'normal',
 			},
 			{
-				name: 'DM Sans Regular',
-				data: <ArrayBuffer>DmSansReqular.buffer,
-				style: 'normal',
+				name: 'Lora',
+				data: <ArrayBuffer>fontItalic.buffer,
+				style: 'italic',
 			},
 		],
 	});
