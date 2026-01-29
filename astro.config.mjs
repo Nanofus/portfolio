@@ -1,7 +1,6 @@
 import { defineConfig } from "astro/config";
 import svelte from "@astrojs/svelte";
 import mdx from "@astrojs/mdx";
-import remarkGfm from "remark-gfm";
 import remarkSmartypants from "remark-smartypants";
 import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
@@ -34,7 +33,6 @@ export default defineConfig({
 			]
 		],
 		remarkPlugins: [
-			remarkGfm,
 			[
 				remarkSmartypants,
 				{

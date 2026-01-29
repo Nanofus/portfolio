@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Junicode";
-    src: url("/fonts/JunicodeVF-Roman.woff2");
+    font-family: "JunicodeVF";
+    src: url("public/fonts/JunicodeVF-Roman.woff2");
 }
 
 :root {

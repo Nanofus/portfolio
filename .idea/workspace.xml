@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="Fix">
+      <change beforePath="$PROJECT_DIR$/.astro/content.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/content.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.astro/data-store.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/data-store.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.astro/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VisualizationCanvas.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VisualizationCanvas.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Junicode-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Junicode-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Junicode-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +104,7 @@
     "prettier.import.notification.dismissed": "true",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\talon\\Projects\\website\\node_modules\\prettier",
     "settings.editor.selected.configurable": "advanced.settings",
-    "ts.external.directory.path": "C:\\Users\\talon\\Projects\\website\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\talon\\AppData\\Local\\Programs\\WebStorm 2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -212,7 +219,7 @@
       <workItem from="1764873309549" duration="38000" />
       <workItem from="1764873558155" duration="53000" />
       <workItem from="1766258904087" duration="13000" />
-      <workItem from="1769698155936" duration="833000" />
+      <workItem from="1769698155936" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="Improvements">
       <option name="closed" value="true" />
