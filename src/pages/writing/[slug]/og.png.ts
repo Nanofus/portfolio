@@ -53,7 +53,7 @@ export async function GET({ props }: Props) {
 							{
 								type: 'img',
 								props: {
-									src: postCover?.buffer,
+									src: postCover ? postCover.buffer : "",
 								},
 							},
 						],
