@@ -34,9 +34,9 @@ export async function GET({ props }: Props) {
 	const postCover = fs.readFileSync(
 		process.env.NODE_ENV === 'development'
 			? path.resolve(
-      post.data.cover.src.replace(/\?.*/, '').replace('/@fs', ''),
+      post.data.cover?.src.replace(/\?.*/, '').replace('/@fs', ''),
 			)
-			: path.resolve(post.data.cover.src.replace('/', 'dist/')),
+			: path.resolve(post.data.cover?.src.replace('/', 'dist/')),
 	);
 
 	// Astro doesn't support tsx endpoints so usign React-element objects
