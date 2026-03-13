@@ -113,7 +113,7 @@ export async function GET({ props }: Props) {
 			],
 			tw: 'w-full h-full flex items-center justify-center relative px-22',
 			style: {
-				background: '#181616',
+				background: '#f7f8e8',
 				fontFamily: 'Lora',
 			},
 		},
