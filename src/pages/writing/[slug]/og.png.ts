@@ -4,7 +4,7 @@ import path from 'path';
 import { ImageResponse } from '@vercel/og';
 
 interface Props {
-	params: { slug: string };
+	params: { id: string };
 	props: { post: CollectionEntry<"writing"> };
 }
 
@@ -29,12 +29,12 @@ export async function GET({ props }: Props) {
 		path.resolve('./dist/fonts/lora-latin-400-italic.woff'),
 	);
 
-	const postCover = post.data.cover ? fs.readFileSync(
+	const postCover = post.data.image ? fs.readFileSync(
 		process.env.NODE_ENV === 'development'
 			? path.resolve(
-      post.data.cover.src.replace(/\?.*/, '').replace('/@fs', ''),
+      post.data.image.replace(/\?.*/, '').replace('/@fs', ''),
 			)
-			: path.resolve(post.data.cover.src.replace('/', 'dist/')),
+			: path.resolve(post.data.image.replace('/', 'dist/')),
 	) : null;
 
 	// Astro doesn't support tsx endpoints so usign React-element objects
@@ -141,7 +141,7 @@ export async function GET({ props }: Props) {
 export async function getStaticPaths() {
 	const blogPosts = await getCollection("writing");
 	return blogPosts.map((post) => ({
-		params: { slug: post.slug },
+		params: { id: post.id },
 		props: { post },
 	}));
 }
