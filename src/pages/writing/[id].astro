@@ -8,7 +8,7 @@ import formatDate from "@utils/formatDate.ts";
 export async function getStaticPaths() {
 	const posts = await getCollection("writing");
 	return posts.map((p) => ({
-		params: { slug: p.id },
+		params: { id: p.id },
 		props: { post: p },
 	}));
 }

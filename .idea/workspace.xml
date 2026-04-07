@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="Fix">
-      <change beforePath="$PROJECT_DIR$/.astro/astro/content.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/astro/content.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.astro/collections/writing.schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/collections/writing.schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.astro/content.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/content.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.astro/data-store.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/data-store.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.astro/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.astro/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BaseHead.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseHead.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/500.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/500.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/rss.xml.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rss.xml.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/writing/[slug].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/writing/[slug].astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/writing/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/writing/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/getPostData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getPostData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/writing/[slug].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/writing/[id].astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/writing/[slug]/og.png.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/writing/[id]/og.png.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +215,7 @@
       <workItem from="1769700822124" duration="1024000" />
       <workItem from="1773596840384" duration="85000" />
       <workItem from="1775598405931" duration="1129000" />
-      <workItem from="1775599591152" duration="2953000" />
+      <workItem from="1775599591152" duration="3283000" />
     </task>
     <task id="LOCAL-00001" summary="Improvements">
       <option name="closed" value="true" />
