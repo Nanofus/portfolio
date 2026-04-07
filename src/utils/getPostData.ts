@@ -1,8 +1,8 @@
 import readingTime from "reading-time";
 
-export default function getPostData(post: { slug: string; body: string }) {
+export default function getPostData(post: { id: string; body?: string | undefined }) {
 	return {
-		slug: post.slug,
-		readingTime: readingTime(post.body).text,
+		id: post.id,
+		readingTime: post.body ? readingTime(post.body).text : "",
 	};
 }

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
-import formatDate from "@utils/formatDate";
+import formatDate from "@utils/formatDate.ts";
 
 const title = "Writing";
 const description = "Latest stuff I've published";
@@ -25,7 +25,7 @@ allPosts = allPosts.sort(
 		<ul>
 			{
 				allPosts.map((post, index) => {
-					const href = `/writing/${post.slug}`;
+					const href = `/writing/${post.id}`;
 					return (
 						<li>
 							<a href={href}>{post.data.title}</a>

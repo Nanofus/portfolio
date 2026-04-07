@@ -1,25 +1,25 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import Bio from "@components/Bio.astro";
-import getPostData from "@utils/getPostData";
-import { getCollection, getEntry } from "astro:content";
-import formatDate from "@utils/formatDate";
+import getPostData from "@utils/getPostData.ts";
+import { getCollection, getEntry, render } from "astro:content";
+import formatDate from "@utils/formatDate.ts";
 
 export async function getStaticPaths() {
 	const posts = await getCollection("writing");
 	return posts.map((p) => ({
-		params: { slug: p.slug },
+		params: { slug: p.id },
 		props: { post: p },
 	}));
 }
 
 const { data } = Astro.props.post;
-const entry = await getEntry("writing", Astro.props.post.slug);
-const { Content, headings } = await entry!.render();
+const entry = (await getEntry("writing", Astro.props.post.id))!;
+const { Content, headings } = await render(entry);
 const { title, description, pubDate, index } = data;
-const { slug, readingTime } = getPostData(Astro.props.post);
-const permalink = `${Astro.site!.href}writing/${slug}`;
-const imageUrl = `${Astro.site!.href}writing/${slug}/og.png`;
+const { id, readingTime } = getPostData(Astro.props.post);
+const permalink = `${Astro.site!.href}writing/${id}`;
+const imageUrl = `${Astro.site!.href}writing/${id}/og.png`;
 ---
   
 <BaseLayout
