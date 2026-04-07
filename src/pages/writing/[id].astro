@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import Bio from "@components/Bio.astro";
-import getPostData from "@utils/getPostData.ts";
+import getPostData from "@utils/getPostData";
 import { getCollection, getEntry, render } from "astro:content";
-import formatDate from "@utils/formatDate.ts";
+import formatDate from "@utils/formatDate";
 
 export async function getStaticPaths() {
 	const posts = await getCollection("writing");

@@ -2,7 +2,7 @@
 	import { T, useTask } from "@threlte/core";
 	import { interactivity } from "@threlte/extras";
 	import { spring } from "svelte/motion";
-	import {getCSSColor} from "@utils/getCSSColor.ts";
+	import {getCSSColor} from "@utils/getCSSColor";
 
 	interactivity();
 	const scale = spring(1);

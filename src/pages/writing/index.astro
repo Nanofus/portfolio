@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
-import formatDate from "@utils/formatDate.ts";
+import formatDate from "@utils/formatDate";
 
 const title = "Writing";
 const description = "Latest stuff I've published";
@@ -37,7 +37,7 @@ allPosts = allPosts.sort(
 				})
 			}
 		</ul>
-		<p><a href="/rss.xml" target="_blank">RSS</a> feed available.</p>
+		<p><a href="/src/pages/rss" target="_blank">RSS</a> feed available.</p>
 	</div>
 </BaseLayout>
 
