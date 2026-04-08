@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="Fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Lora-Italic-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Lora-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/lora-latin-400-italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/lora-latin-400-normal.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/maskable-icon-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa-64x64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BaseHead.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseHead.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Bio.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bio.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Visualization.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Visualization.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/BaseLayout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/BaseLayout.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/writing/[id].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/writing/[id].astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/writing/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/writing/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.css" afterDir="false" />
-    </list>
+    <list default="true" id="55e13593-d9b7-4ba9-80a8-8aa3c61c6853" name="Changes" comment="Fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +213,7 @@
       <workItem from="1773596840384" duration="85000" />
       <workItem from="1775598405931" duration="1129000" />
       <workItem from="1775599591152" duration="4566000" />
-      <workItem from="1775673326270" duration="4714000" />
+      <workItem from="1775673326270" duration="5046000" />
     </task>
     <task id="LOCAL-00001" summary="Improvements">
       <option name="closed" value="true" />

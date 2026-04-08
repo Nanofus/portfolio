@@ -24,10 +24,12 @@ async function loadGoogleFont (font: string, text: string) {
 export async function GET({ props }: Props) {
 	const { post } = props;
 
-	const font: Buffer = fs.readFileSync(path.resolve('./dist/fonts/lora-latin-400-normal.woff'));
+	/*const font: Buffer = fs.readFileSync(path.resolve('./dist/fonts/lora-latin-400-normal.woff'));
 	const fontItalic: Buffer = fs.readFileSync(
 		path.resolve('./dist/fonts/lora-latin-400-italic.woff'),
-	);
+	);*/
+	const font = await loadGoogleFont("Nunito Sans", "TESTING");
+	const fontItalic = await loadGoogleFont("Nunito Sans", "TESTING");
 
 	const postCover = post.data.image ? fs.readFileSync(
 		process.env.NODE_ENV === 'development'
@@ -125,12 +127,12 @@ export async function GET({ props }: Props) {
 		fonts: [
 			{
 				name: 'Lora',
-				data: <ArrayBuffer>font.buffer,
+				data: <ArrayBuffer>font,
 				style: 'normal',
 			},
 			{
 				name: 'Lora',
-				data: <ArrayBuffer>fontItalic.buffer,
+				data: <ArrayBuffer>fontItalic,
 				style: 'italic',
 			},
 		],
