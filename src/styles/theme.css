@@ -1,19 +1,16 @@
-@font-face {
-    font-family: "Lora";
-    src: url("/fonts/Lora-VariableFont_wght.ttf");
-}
-@font-face {
-	font-family: "Lora";
-	font-style: italic;
-	src: url("/fonts/Lora-Italic-VariableFont_wght.ttf");
-}
-
 :root {
-	--font-family-header: "Lora", serif;
-	--font-family-body: "Lora", serif;
+	--font-family-header: "Instrument Serif", "EB Garamond", serif;
+	--font-family-body: "Nunito Sans", "Inter", sans-serif;
 	--font-family-mono: "MonoLisa", Inconsolata, monospace;
 	
 	--base-light-color: #F6F5F5;
+	--base-light-color-subtle: #979797;
 	--base-dark-color: #181616;
+	--base-dark-color-subtle: #5d5a56;
 	--base-accent-color: #C0A36E;
+
+	font-optical-sizing: auto;
+	font-variation-settings:
+			"wdth" 100,
+			"YTLC" 500;
 }

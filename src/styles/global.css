@@ -19,17 +19,17 @@ html {
 
 :root {
     --background-color: var(--base-light-color);
+    --background-color-subtle: var(--base-light-color-subtle);
     --text-color: var(--base-dark-color);
     --accent-color: var(--base-accent-color);
-    --subtler: brightness(0.6) saturate(0.3);
 }
 
 @media screen and (prefers-color-scheme: dark) {
     :root {
         --background-color: var(--base-dark-color);
+        --background-color-subtle: var(--base-dark-color-subtle);
         --text-color: var(--base-light-color);
         --accent-color: var(--base-accent-color);
-        --subtler: brightness(5) saturate(0.3);
     }
 }
 
@@ -37,7 +37,6 @@ html {
 body {
     margin: 0;
     font-family: var(--font-family-body), serif;
-    font-size: 1rem;
     line-height: 1.6;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -46,8 +45,7 @@ body {
 
 .anchor-link {
     position: absolute;
-    filter: var(--subtler);
-    color: var(--background-color);
+    color: var(--background-color-subtle);
     &:hover {
         text-decoration: none;
     }
@@ -75,8 +73,14 @@ h2 {
     font-size: 1.8rem;
     .anchor-link {
         width: 1.6rem;
-        margin-left: -1.6rem;
+        margin-left: -2rem;
         position: absolute;
+    }
+}
+
+@media (max-width: 760px) {
+    h2 {
+        margin: 1.6rem 0 0 1.6rem;
     }
 }
 
@@ -100,6 +104,7 @@ p,
 ul,
 ol {
     margin: 1.2rem 0;
+    font-size: 1.2rem;
 }
 
 ul,
@@ -221,23 +226,4 @@ td {
 
 article {
     font-family: var(--font-family-body), serif;
-}
-
-@media (max-width: 1020px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    article h1 {
-        font-size: 2.2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    p,
-    ul,
-    ol {
-        font-size: 1.2rem;
-        margin: 1em 0;
-    }
 }

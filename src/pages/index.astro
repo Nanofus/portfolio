@@ -13,7 +13,7 @@ const permalink = Astro.site!.href;
 >
 	<VisualizationCanvas client:load />
 
-	<div class="home-container">
+	<div class="content-container">
 		<div class="home-copy">
 			<h1>{SITE_TITLE}</h1>
 			<p>{SITE_DESCRIPTION}</p>
@@ -28,21 +28,8 @@ const permalink = Astro.site!.href;
 </BaseLayout>
 
 <style>
-	.home-container {
-		align-items: center;
-		display: flex;
-		flex: 1;
-		padding-left: 1rem;
-	}
-
-	.home-copy {
+	.content-container {
 		z-index: 1;
-		flex: 1;
-		pointer-events: none;
-	}
-
-	.home-copy > * {
-		pointer-events: all;
 	}
 
 	.home-copy h1 {
@@ -54,7 +41,6 @@ const permalink = Astro.site!.href;
 	}
 
 	.home-copy p {
-		font-size: 1.3rem;
 		width: fit-content;
 	}
 

@@ -14,44 +14,25 @@ const { title, description, permalink, imageUrl } = Astro.props;
 const rssUrl = Astro.site!.href + "rss";
 ---
 
-<!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
 <link rel="icon" href="/favicon.ico" />
 <meta name="format-detection" content="telephone=no" />
 
-<!-- PWA -->
-<meta name="full-screen" content="yes" />
-<link rel="manifest" href="/manifest.json" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-title" content={title} />
-<meta
-	name="apple-mobile-web-app-status-bar-style"
-	content="black-translucent"
-/>
-<link rel="apple-touch-icon" href="/favicon.png" />
-
-<!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
 
-<!-- Open Graph / Facebook -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
 <meta property="og:type" content="website" />
 <meta property="og:url" content={permalink} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={imageUrl ? imageUrl : ""} />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={permalink} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={imageUrl ? imageUrl : ""} />
-
-<!-- RSS Feed -->
 <link
 	rel="alternate"
 	type="application/rss+xml"

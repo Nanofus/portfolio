@@ -12,6 +12,9 @@ const { current = "" } = Astro.props;
 			<span>{SITE_TITLE}</span>
 		</a>
 		<span class="filler"></span>
+		<a class="" target="_blank" href="https://store.steampowered.com/app/1570490/Perikoto/">
+			Perikoto
+		</a>
 		<a class={current === "creations" ? "selected" : ""} href="/creations">
 			Creations
 		</a>
@@ -25,20 +28,8 @@ const { current = "" } = Astro.props;
 	header {
 		display: flex;
 		margin: 0 auto;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
 		width: 100%;
-	}
-
-	#main-logo {
-		color: var(--text-on-accent-color);
-		background-color: var(--accent-color);
-		transition: filter 0.3s ease;
-	}
-
-	#main-logo:hover {
-		color: var(--text-on-accent-color);
-		filter: brightness(1);
+		border-bottom: 1px solid var(--background-color-subtle);
 	}
 
 	#main-logo span {

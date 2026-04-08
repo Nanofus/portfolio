@@ -3,9 +3,10 @@
 	import { interactivity } from "@threlte/extras";
 	import { spring } from "svelte/motion";
 	import {getCSSColor} from "@utils/getCSSColor";
+  import MonsterMask from "@components/MonsterMask.svelte";
 
 	interactivity();
-	const scale = spring(1);
+	const scale = spring(2);
 	let rotation = $state(0);
 	useTask((delta) => {
 		rotation += delta * 0.2;
@@ -16,20 +17,18 @@
 
 <T.PerspectiveCamera
 	makeDefault
-	position={[10, 10, 10]}
+	position={[1, 1.2, 1]}
 	oncreate={(ref) => {
 		ref.lookAt(0, 1, 0);
 	}}
 />
-<T.DirectionalLight intensity={1} position={[0, 10, 10]} />
+<T.DirectionalLight intensity={1} position={[0, 20, 10]} />
 <T.AmbientLight intensity={1} />
-<T.Mesh
+<MonsterMask
 	rotation.y={rotation}
 	position.y={1}
 	scale={$scale}
-	onpointerenter={() => scale.set(1.1)}
-	onpointerleave={() => scale.set(1)}
->
-	<T.BoxGeometry args={[5, 5, 5]} />
-	<T.MeshStandardMaterial {color} />
-</T.Mesh>
+	onpointerenter={() => scale.set(2.2)}
+	onpointerleave={() => scale.set(2)}
+	{color}
+/>
