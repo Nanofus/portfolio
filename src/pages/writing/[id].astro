@@ -19,7 +19,7 @@ const { Content, headings } = await render(entry);
 const { title, description, pubDate, index } = data;
 const { id, readingTime } = getPostData(Astro.props.post);
 const permalink = `${Astro.site!.href}writing/${id}`;
-const imageUrl = `${Astro.site!.href}writing/open-graph/${id}`;
+const imageUrl = `${Astro.site!.href}og/${id}`;
 ---
   
 <BaseLayout
